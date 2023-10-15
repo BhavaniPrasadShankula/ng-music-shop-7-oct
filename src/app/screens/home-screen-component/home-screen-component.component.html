@@ -1,0 +1,12 @@
+<ms-main-banner></ms-main-banner>
+
+  <ng-container *ngIf="albums$ | async as albums; else loading">
+    <ms-album-listing
+      [albums]="albums"
+      [heading]="topAlbumHeading"
+    ></ms-album-listing>
+  </ng-container>
+
+  <!-- <ms-album-listing [albums]="albums$ | async" [heading]="latestAlbumHeading"></ms-album-listing>
+    <ms-album-listing [albums]="albums$ | async" [heading]="bollywoodAlbumHeading"></ms-album-listing> -->
+    <ng-template #loading> Loading... </ng-template>
