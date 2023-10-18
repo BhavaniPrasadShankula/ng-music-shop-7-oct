@@ -1,32 +1,59 @@
 <!-- Header -->
 <header class="bg-gray-800 text-white p-4 flex justify-between items-center">
+  <a
+    routerLink="/"
+    routerLinkActive="active-link"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
     <h1 class="text-2xl">Music Store</h1>
-    <a routerLink="/admin/add-album">Add Album</a>
-    <div class="flex items-center">
-        <!-- Cart Icon -->
-        <a href="#" class="mr-6">
-            <span class="material-icons"> shopping_cart </span>
-            <span>{{cartItems.length}}</span>
-        </a>
+  </a>
+  <p>
+    <a [routerLink]="addAlbumLink" routerLinkActive="active-link">Add Album</a>
+    <!-- <a href="https://facebook.com/something">Facebook</a> -->
+  </p>
+  <div class="flex items-center">
+    <!-- Cart Icon -->
+    <a href="#" class="mr-6">
+      <span class="material-icons"> shopping_cart </span>
+      <span>{{ cartItems.length }}</span>
+    </a>
 
-        <!-- Profile Dropdown -->
-        <div class="relative inline-block text-left">
-            <button type="button" class="inline-flex items-center">
-                <span class="material-icons"> account_circle </span>
-                <span class="ml-2">Profile</span>
-                <span class="material-icons"> arrow_drop_down </span>
-            </button>
-            <div
-                class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Your
-                        Profile</a>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
-                        role="menuitem">Settings</a>
-                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100" role="menuitem">Sign
-                        out</a>
-                </div>
-            </div>
+    <!-- Profile Dropdown -->
+    <div class="relative inline-block text-left">
+      <button type="button" class="inline-flex items-center">
+        <span class="material-icons"> account_circle </span>
+        <span class="ml-2">Profile</span>
+        <span class="material-icons"> arrow_drop_down </span>
+      </button>
+      <div
+        class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5"
+      >
+        <div
+          class="py-1"
+          role="menu"
+          aria-orientation="vertical"
+          aria-labelledby="options-menu"
+        >
+          <a
+            href="#"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            role="menuitem"
+            >Your Profile</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            role="menuitem"
+            >Settings</a
+          >
+          <a
+            href="#"
+            class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100"
+            role="menuitem"
+            >Sign out</a
+          >
         </div>
+      </div>
     </div>
+  </div>
 </header>

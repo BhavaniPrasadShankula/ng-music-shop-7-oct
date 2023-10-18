@@ -15,5 +15,7 @@ export class MainHeaderComponent {
       this.cartItems = _cart.cartItems
   }
 
+  addAlbumLink = "/admin/add-album"
+
 
 }

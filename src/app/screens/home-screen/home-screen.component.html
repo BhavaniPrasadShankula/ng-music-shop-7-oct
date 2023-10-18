@@ -1,0 +1,22 @@
+<ms-main-banner></ms-main-banner>
+
+<ng-container *ngIf="topAlbums$ | async as albums">
+  <ms-album-listing
+    [albums]="albums"
+    [heading]="topAlbumHeading"
+  ></ms-album-listing>
+</ng-container>
+
+<ng-container *ngIf="bollywoodAlbums$ | async as albums">
+  <ms-album-listing
+    [albums]="albums"
+    [heading]="bollywoodAlbumHeading"
+  ></ms-album-listing>
+</ng-container>
+
+<ng-container *ngIf="latestAlbums$ | async as albums">
+  <ms-album-listing
+    [albums]="albums"
+    [heading]="latestAlbumHeading"
+  ></ms-album-listing>
+</ng-container>

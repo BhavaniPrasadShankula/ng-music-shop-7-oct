@@ -6,15 +6,21 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 100,
-      "singers": ["Singer A", "Singer B"],
+      "singers": [
+        "Singer A",
+        "Singer B"
+      ],
       "songs": [
         {
           "duration": 430,
           "name": "Awesome Song",
-          "singer": ["Singer A"]
+          "singer": [
+            "Singer A"
+          ]
         }
       ],
-      "isPurchasedByUser": true
+      "isPurchasedByUser": true,
+      "id": 1
     },
     {
       "name": "Music 202",
@@ -22,15 +28,21 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 200,
-      "singers": ["Singer C", "Singer D"],
+      "singers": [
+        "Singer C",
+        "Singer D"
+      ],
       "songs": [
         {
           "duration": 600,
           "name": "Great Song",
-          "singer": ["Singer C"]
+          "singer": [
+            "Singer C"
+          ]
         }
       ],
-      "newRelesedDate": "2023-10-08T16: 13: 46.338Z"
+      "newRelesedDate": "2023-10-08T16: 13: 46.338Z",
+      "id": 2
     },
     {
       "name": "Music 303",
@@ -38,14 +50,121 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 200000,
-      "singers": ["Singer D", "Singer E"],
+      "singers": [
+        "Singer D",
+        "Singer E"
+      ],
       "songs": [
         {
           "duration": 549,
           "name": "Great Song",
-          "singer": ["Singer C"]
+          "singer": [
+            "Singer C"
+          ]
         }
-      ]
+      ],
+      "id": 3
+    },
+    {
+      "name": "abc",
+      "price": 1,
+      "id": 4
+    },
+    {
+      "name": "Angular Learning",
+      "price": 1000,
+      "id": 5
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "",
+        ""
+      ],
+      "id": 6
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "",
+        "",
+        ""
+      ],
+      "id": 7
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "",
+        "",
+        "",
+        ""
+      ],
+      "id": 8
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "1",
+        ""
+      ],
+      "id": 9
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "1",
+        "2",
+        ""
+      ],
+      "id": 10
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "1",
+        "2",
+        "3",
+        ""
+      ],
+      "id": 11
+    },
+    {
+      "name": "def",
+      "price": 1000,
+      "singers": [
+        "11",
+        "22",
+        "33",
+        "34"
+      ],
+      "id": 12
+    },
+    {
+      "name": "",
+      "price": 0,
+      "singers": [
+        "1",
+        "2",
+        "21",
+        "212"
+      ],
+      "id": 13
+    },
+    {
+      "name": "xyz",
+      "price": 1000,
+      "singers": [
+        "abc",
+        "def"
+      ],
+      "id": 14
     }
   ],
   "latest-albums": [
@@ -55,15 +174,21 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 100,
-      "singers": ["Singer A", "Singer B"],
+      "singers": [
+        "Singer A",
+        "Singer B"
+      ],
       "songs": [
         {
           "duration": 430,
           "name": "Awesome Song",
-          "singer": ["Singer A"]
+          "singer": [
+            "Singer A"
+          ]
         }
       ],
-      "isPurchasedByUser": true
+      "isPurchasedByUser": true,
+      "id": 1
     },
     {
       "name": "Music 202",
@@ -71,15 +196,21 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 200,
-      "singers": ["Singer C", "Singer D"],
+      "singers": [
+        "Singer C",
+        "Singer D"
+      ],
       "songs": [
         {
           "duration": 600,
           "name": "Great Song",
-          "singer": ["Singer C"]
+          "singer": [
+            "Singer C"
+          ]
         }
       ],
-      "newRelesedDate": "2023-10-08T16: 13: 46.338Z"
+      "newRelesedDate": "2023-10-08T16: 13: 46.338Z",
+      "id": 2
     },
     {
       "name": "Music 303",
@@ -87,14 +218,20 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 200000,
-      "singers": ["Singer D", "Singer E"],
+      "singers": [
+        "Singer D",
+        "Singer E"
+      ],
       "songs": [
         {
           "duration": 549,
           "name": "Great Song",
-          "singer": ["Singer C"]
+          "singer": [
+            "Singer C"
+          ]
         }
-      ]
+      ],
+      "id": 3
     }
   ],
   "bollywood-albums": [
@@ -104,15 +241,21 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 100,
-      "singers": ["Singer A", "Singer B"],
+      "singers": [
+        "Singer A",
+        "Singer B"
+      ],
       "songs": [
         {
           "duration": 430,
           "name": "Awesome Song",
-          "singer": ["Singer A"]
+          "singer": [
+            "Singer A"
+          ]
         }
       ],
-      "isPurchasedByUser": true
+      "isPurchasedByUser": true,
+      "id": 1
     },
     {
       "name": "Music 202",
@@ -120,15 +263,21 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 200,
-      "singers": ["Singer C", "Singer D"],
+      "singers": [
+        "Singer C",
+        "Singer D"
+      ],
       "songs": [
         {
           "duration": 600,
           "name": "Great Song",
-          "singer": ["Singer C"]
+          "singer": [
+            "Singer C"
+          ]
         }
       ],
-      "newRelesedDate": "2023-10-08T16: 13: 46.338Z"
+      "newRelesedDate": "2023-10-08T16: 13: 46.338Z",
+      "id": 2
     },
     {
       "name": "Music 303",
@@ -136,14 +285,20 @@
         "thumbnail": "https://via.placeholder.com/150"
       },
       "price": 200000,
-      "singers": ["Singer D", "Singer E"],
+      "singers": [
+        "Singer D",
+        "Singer E"
+      ],
       "songs": [
         {
           "duration": 549,
           "name": "Great Song",
-          "singer": ["Singer C"]
+          "singer": [
+            "Singer C"
+          ]
         }
-      ]
+      ],
+      "id": 3
     }
   ]
 }
